@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homepage</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="favicon.png">
+        <link rel="apple-touch-icon" href="favicon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="myfunction.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1></h1>
+        </header>
+
+        <form action="search.php" id="search" method="POST">
+            <select name="engine" id="engine">
+                <option value="google">Google</option>
+                <option value="bing">Bing</option>
+                <option value="duckduckgo">DuckDuckGo</option>
+                <option value="twitter">Twitter</option>
+                <option value="4chan">4chan</option>
+                <option value="yandex">Yandex</option>
+                <option value="github">GitHub</option>
+                <option value="youtube">YouTube</option>
+                <option value="ytmusic">YouTube Music</option>
+                <option value="soundcloud">SoundCloud</option>
+                <option value="spotify">Spotify</option>
+                <option value="url">URL</option>
+            </select>
+            <input type="text" id="input" name="input">
+            <button type="reset">
+                <span class="material-icons">
+                    clear
+                </span>
+            </button>
+            <button type="submit">
+                <span class="material-icons">
+                    search
+                </span>
+            </button>
+        </form>
+
+        <div id="apps"></div>
+
+        <div id="designSelector">
+            <button class="lightmode"> </button>
+            <button class="darkmode"> </button>
+            <button class="photomode"> </button>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,79 @@
+{
+    "apps" : [
+        {
+            "name" : "Twitter",
+            "link" : "https://twitter.com",
+            "image" : "img/app_logos/twitter_logo.png"
+        },
+        {
+            "name" : "Discord",
+            "link" : "https://discord.com/login",
+            "image" : "img/app_logos/discord_logo.png"
+        },
+        {
+            "name" : "YouTube",
+            "link" : "https://youtube.com",
+            "image" : "img/app_logos/youtube_logo.png"
+        },
+        {
+            "name" : "Google Drive",
+            "link" : "https://drive.google.com",
+            "image" : "img/app_logos/google_drive_logo.png"
+        },
+        {
+            "name" : "Google Fotos",
+            "link" : "https://photos.google.com",
+            "image" : "img/app_logos/google_photos_logo.png"
+        },
+        {
+            "name" : "Google Mail",
+            "link" : "https://mail.google.com",
+            "image" : "img/app_logos/google_mail_logo.png"
+        },
+        {
+            "name" : "Google Docs",
+            "link" : "https://docs.google.com",
+            "image" : "img/app_logos/google_docs_logo.png"
+        },
+        {
+            "name" : "Google Notizen",
+            "link" : "https://keep.google.com",
+            "image" : "img/app_logos/google_keep_logo.webp"
+        },
+        {
+            "name" : "Google Kalender",
+            "link" : "https://calender.google.com",
+            "image" : "img/app_logos/google_calender_logo.png"
+        },
+        {
+            "name" : "Google Tasks",
+            "link" : "https://tasksboard.com/app",
+            "image" : "img/app_logos/google_tasks_logo.png"
+        },
+        {
+            "name" : "GitHub",
+            "link" : "https://github.com",
+            "image" : "img/app_logos/github_logo.png"
+        },
+        {
+            "name" : "SoundCloud",
+            "link" : "https://soundcloud.com/discover",
+            "image" : "img/app_logos/soundcloud_logo.png"
+        },
+        {
+            "name" : "Google Messages",
+            "link" : "https://messages.google.com",
+            "image" : "img/app_logos/google_messages_logo.png"
+        },
+        {
+            "name" : "Telegram",
+            "link" : "https://web.telegram.org/k/",
+            "image" : "img/app_logos/telegram_logo.png"
+        },
+        {
+            "name" : "WhatsApp",
+            "link" : "https://web.whatsapp.com/",
+            "image" : "img/app_logos/whatsapp_logo.png"
+        }
+    ]
+}
