@@ -70,7 +70,7 @@ $(document).ready(function() {
         root.style.setProperty('--photomode-btn', "url(img/design_buttons/photo_black.png)");
     }
     function SetPhotomode() {
-        root.style.setProperty('--background', "url(https://source.unsplash.com/user/andersjilden)");
+        root.style.setProperty('--background', "url(https://source.unsplash.com/user/andersjilden/daily)");
         root.style.setProperty('--h1-background', "linear-gradient(90deg, transparent 0%, rgba(0,0,0,0.5) 50%, transparent 100%)");
         root.style.setProperty('--text-color', "#fff");
         root.style.setProperty('--text-color-faded', "#ddd");
