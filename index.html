@@ -4,6 +4,7 @@
         <title>Homepage</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
         <link rel="icon" href="favicon.png">
         <link rel="apple-touch-icon" href="favicon.png">
@@ -19,8 +20,8 @@
             <h1></h1>
         </header>
 
-        <form action="search.php" id="search" method="POST">
-            <select name="engine" id="engine">
+        <form class="rounded-full shadow" action="search.php" id="search" method="POST">
+            <select class="rounded-full" name="engine" id="engine">
                 <option value="google">Google</option>
                 <option value="bing">Bing</option>
                 <option value="duckduckgo">DuckDuckGo</option>
@@ -34,13 +35,13 @@
                 <option value="spotify">Spotify</option>
                 <option value="url">URL</option>
             </select>
-            <input type="text" id="input" name="input" autofocus="autofocus" onfocus="this.select()">
-            <button type="reset">
+            <input class="rounded shadow-sm" type="text" id="input" name="input" autofocus>
+            <button type="reset" class="rounded-full">
                 <span class="material-icons">
                     clear
                 </span>
             </button>
-            <button type="submit">
+            <button type="submit" class="rounded-full">
                 <span class="material-icons">
                     search
                 </span>
@@ -49,10 +50,10 @@
 
         <div id="apps"></div>
 
-        <div id="designSelector">
-            <button class="lightmode"> </button>
-            <button class="darkmode"> </button>
-            <button class="photomode"> </button>
+        <div id="designSelector" class="rounded shadow">
+            <button class="lightmode rounded-full"><img></button>
+            <button class="darkmode rounded-full"><img></button>
+            <button class="photomode rounded-full"><img></button>
         </div>
     </body>
 </html>
