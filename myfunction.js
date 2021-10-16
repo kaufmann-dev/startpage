@@ -3,7 +3,7 @@ $(document).ready(function() {
     let time = new Date();
     $.getJSON('apps.json', function(data) {
         data.apps.forEach(element => {
-            $('#apps').append("<a href='" + element.link + "'><div class='app shadow rounded'><div class='imgWrapper shadow rounded-full'><img src='" + element.image + "' title='" + element.name + "'></div><p>" + element.name + "</p></div></a>");
+            $('#apps').append("<div class='app shadow rounded'><a href='" + element.link + "'><div class='imgWrapper shadow rounded-full'><img src='" + element.image + "' title='" + element.name + "'></div><p>" + element.name + "</p></a></div>");
         });
     });
     $('header h1').text(pad(time.getHours()) + ":" + pad(time.getMinutes()) + ":" + pad(time.getSeconds()));

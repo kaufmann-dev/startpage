@@ -87,25 +87,24 @@ header h1 {
     margin: 0 auto;
     margin-top: 50px;
 }
-#apps a {
-    overflow: auto;
-    display: inline-block;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    vertical-align: top;
-}
-#apps a:nth-child(5n) {
-    margin-right: 0;
-}
 .app {
     background: var(--light-contrast);
     width: 128px;
     height: 128px;
-    overflow: auto;
+    overflow: visible;
     display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.app:nth-child(5n) {
+    margin-right: 0;
 }
 .app:hover {
     background: var(--high-contrast);
+}
+.app a {
+    width: 100%;
+    display: inline-block;
 }
 .imgWrapper {
     box-sizing: border-box;
